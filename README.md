@@ -1,4 +1,4 @@
-**Tratando CPFs com Python: Algoritmo de Busca Linear**
+# Tratando CPFs com Python: Algoritmo de Busca Linear**
 
 ---
 
@@ -53,6 +53,16 @@ Na função `ler_cpf_arquivo`, lemos os CPFs de um arquivo CSV e os tratamos usa
 
 Finalmente, na função `testar_funcao`, chamamos a função `ler_cpf_arquivo` para obter os CPFs do arquivo CSV e, em seguida, chamamos a função `criar_lista_dedup` para deduplicar e tratar esses CPFs. Os CPFs deduplicados e tratados são impressos no terminal.
 
-**Conclusão:**
+### 7. Merge Sort: Ordenação Eficiente
+
+Divide e Conquista: O Merge Sort divide a lista em sublistas, ordena cada sublista recursivamente e as mescla em ordem.
+
+Eficiente e Estável: Funciona bem com memória limitada e preserva a ordem original de elementos iguais.
+
+Ideal para grandes volumes: Complexidade temporal média de O(n log n), mais eficiente que Bubble Sort ou Selection Sort para grandes conjuntos de dados.
+
+Desvantagem: Requer memória extra para armazenar sublistas temporárias.
+
+### Conclusão:
 
 Este resumo detalha os passos para implementar uma solução em Python que realiza deduplicação, remoção de caracteres especiais e verificação de comprimento em uma lista de CPFs. Ao seguir estes passos, será possível manipular e tratar eficientemente os dados de CPFs em aplicações Python.
